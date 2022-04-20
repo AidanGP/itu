@@ -1,0 +1,8 @@
+.blush {
+    position: absolute;
+    bottom: -15px;
+    width: 100px;
+    height: 30px;
+    filter: blur(20px);
+  }
+  

@@ -1,0 +1,115 @@
+.button {
+  --purple: #FAF089;
+  --pink: #fcec37;
+  --blue: #3cf7f7;
+
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  background-color: #3cf7f7;
+  color: #00233d;
+  border-radius: 60px;
+  outline: none;
+  margin: 0;
+  padding: 0px 28px;
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.shapes {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  border-radius: 60px;
+  background: linear-gradient(60deg,
+      var(--blue) 0%,
+      var(--pink) 70%);
+}
+
+.blush {
+  position: absolute;
+  bottom: -15px;
+  width: 100px;
+  height: 30px;
+  filter: blur(20px);
+}
+
+.blush.pink {
+  right: 20px;
+  background: var(--purple);
+}
+
+.blush.blue {
+  left: 20px;
+  background: var(--blue);
+}
+
+
+.label {
+  width: 180px;
+  padding: 20px 0;
+  transform: translateZ(0);
+  font-weight: 700;
+  z-index: 1;
+}
+
+.default {
+  display: block;
+}
+
+.number {
+  padding: 20px 0;
+  width: 88px;
+  position: relative;
+  transform: translateZ(0);
+}
+
+.number:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  bottom: 1px;
+  width: 1px;
+  background-color: #35373f;
+}
+
+.current {
+  color: #8a8d9b;
+  opacity: 1;
+  display: block;
+}
+
+.new {
+  color: #fbfaaa;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+.add {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: translateY(38px);
+  pointer-events: none;
+  color: #d0d0db;
+  display: block;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');

@@ -1,0 +1,16 @@
+.infosliding {
+    background-color: #00121f;
+    height: 50px;
+    width: 5076px;
+    animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-1692px, 0, 0);
+    }
+}
