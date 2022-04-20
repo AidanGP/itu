@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/itu/static/css/main.59f04eed.css",
+    "main.js": "/itu/static/js/main.f8fc02b3.js",
+    "static/media/bg_test.png": "/itu/static/media/bg_test.f92635984f3f42dd3073.png",
+    "static/media/bg_test_6.png": "/itu/static/media/bg_test_6.e9dafce6c153ea4dab10.png",
+    "static/media/team_1.png": "/itu/static/media/team_1.aa8f769677ef591846c1.png",
+    "static/media/scrolling_bg.png": "/itu/static/media/scrolling_bg.dbda90dc57a35872428b.png",
+    "static/media/left.png": "/itu/static/media/left.d75607c7f2d3f6f7c479.png",
+    "static/media/right.png": "/itu/static/media/right.f2276e1e6b266953f91d.png",
+    "static/media/team_3.png": "/itu/static/media/team_3.d379fd562a68c9107b24.png",
+    "static/media/team_4.png": "/itu/static/media/team_4.4ea53a676549e626256f.png",
+    "static/media/team_2.png": "/itu/static/media/team_2.64e30fce948e64ad03d5.png",
+    "static/media/bg1.png": "/itu/static/media/bg1.812a3c3cdcaf38bcbb60.png",
+    "static/media/b.png": "/itu/static/media/b.5472e571058e5d5201bd.png",
+    "static/media/a.png": "/itu/static/media/a.0eb5c7dcf228c838ebf6.png",
+    "static/media/d.png": "/itu/static/media/d.232c206fb6c9db112274.png",
+    "static/media/c.png": "/itu/static/media/c.4fb64276b41d8fcb60ee.png",
+    "static/media/title_logo.png": "/itu/static/media/title_logo.9bb379d3ba4fa729ac89.png",
+    "static/media/yellowlogo.png": "/itu/static/media/yellowlogo.2d05e6014aaff75db458.png",
+    "static/media/title.png": "/itu/static/media/title.3293aa34b8e9b56a2ab2.png",
+    "index.html": "/itu/index.html",
+    "main.59f04eed.css.map": "/itu/static/css/main.59f04eed.css.map",
+    "main.f8fc02b3.js.map": "/itu/static/js/main.f8fc02b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59f04eed.css",
+    "static/js/main.f8fc02b3.js"
+  ]
+}
