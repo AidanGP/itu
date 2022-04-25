@@ -13,12 +13,17 @@
 .list-item {
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  font-weight:800;
+  font-weight: 800;
+  font-size: 1.34rem;
   margin: 0 auto;
   width: max-content;
 }
 
-.list-item > .split-text {
+.list-item:hover {
+  cursor: pointer;
+}
+
+.list-item>.split-text {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -26,14 +31,14 @@
   transition: color 0ms 200ms;
 }
 
-.list-item:hover > .split-text {
+.list-item:hover>.split-text {
   color: transparent;
   user-select: none;
   transition-delay: 0ms;
 }
 
-.list-item > .split-text::before,
-.list-item > .split-text::after {
+.list-item>.split-text::before,
+.list-item>.split-text::after {
   position: absolute;
   content: attr(data-text);
   height: calc(.5em);
@@ -45,13 +50,13 @@
   user-select: none;
 }
 
-.list-item:hover > .split-text::before,
-.list-item:hover > .split-text::after {
+.list-item:hover>.split-text::before,
+.list-item:hover>.split-text::after {
   color: white;
   transform: skewX(15deg);
 }
 
-.list-item > .split-text::after {
+.list-item>.split-text::after {
   bottom: 0;
   display: flex;
   align-items: flex-end;

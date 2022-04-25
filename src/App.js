@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
   Box,
-  Image,
-  HStack
+  Image
 } from '@chakra-ui/react';
 
 import bg from './images/bg_test_6.png'
@@ -23,6 +22,8 @@ import InfoCarousel from './components/InfoCarousel/InfoCarousel'
 
 import left from './images/left.png';
 import right from './images/right.png'
+
+import overlay from './images/overlay.png'
 
 function App() {
   const firstRender = useRef(true);
@@ -55,7 +56,7 @@ function App() {
               <motion.div
                 animate={{ opacity: [0, 1] }}
                 transition={{ transition }}>
-                <Box bg='#00233d'>
+                <Box bg='#00233d' bgImage={overlay}>
                   <Box h='100vh' bgImage={bg} bgPosition='center' position='relative'>
                     <Nav />
                     <Box align='center' pt={{ base: 16, lg: 32 }}>
@@ -64,16 +65,23 @@ function App() {
                     <Image src={left} w={{ base: 52, md: '30%' }} position='absolute' bottom={0} left={{ base: 10, md: 16 }} display={{ base: 'none', sm: 'block' }} />
                     <Image src={right} w={{ base: 52, md: '30%' }} position='absolute' bottom={0} right={{ base: 10, md: 16 }} display={{ base: 'none', sm: 'block' }} />
                   </Box>
-
                   <InfoCarousel />
 
                   <About />
-                  <Carousel />
-                  <Roadmap />
-                  <Team />
-                  <FAQ />
-                  <Footer />
+                  {/* <Carousel /> */}
                 </Box>
+                <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
+                <Roadmap />
+                <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
+                <Box bg='#00233d' bgImage={overlay}>
+                  <Team />
+                </Box>
+                <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
+                <FAQ />
+                <Footer />
+
+
+
               </motion.div>
             </Box>
           </> :

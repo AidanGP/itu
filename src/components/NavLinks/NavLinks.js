@@ -1,10 +1,12 @@
 import React from 'react'
 import './NavLinks.css'
-import { Stack, Link } from '@chakra-ui/react'
+import { Stack } from '@chakra-ui/react'
+import { Link } from 'react-scroll'
 
 const NavLink = ({ name }) => {
     return (
-        <Link className="list-item" _hover={{ underline: 'none' }} fontSize={24}>
+
+        <Link to={name} spy={true} smooth={true} offset={-50} duration={700} className="list-item" _hover={{ underline: 'none' }} fontSize={24}>
             <span className="split-text" data-text={name}>{name}</span>
         </Link>
     )

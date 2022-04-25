@@ -2,6 +2,7 @@
   "name": "itu",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aidangp.github.io/itu/",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.8.7",
@@ -19,6 +20,7 @@
     "react-icons": "^3.11.0",
     "react-intersection-observer": "^8.33.1",
     "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.7",
     "react-use-measure": "^2.1.1",
     "web-vitals": "^0.2.4"
   },
@@ -26,6 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
