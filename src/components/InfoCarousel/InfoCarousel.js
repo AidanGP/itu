@@ -15,23 +15,23 @@ const InfoContent = () => {
     return (
         <HStack h='100%' align='center' fontSize='2xl'>
             <Text color={c}>{' '}Public Sale TBD</Text> <Div />
-            <Text color={c}>Pre-sale Mint April 20th 1620 BST</Text> <Div />
+            <Text color={c}>Pre-sale Mint [BLANK]</Text> <Div />
             <Text color={c}>Public Mint TBD</Text> <Div />
-            <Text color={c}>8888 + 12 Legendary</Text> <Div />
-            <Text color={c}>180 Traits</Text> <Div />
-            <Text color={c}>Pre-sale Price 0.06942 Eth</Text> <Div />
+            <Text color={c}>[BLANK]</Text> <Div />
+            <Text color={c}>[BLANK] Traits</Text> <Div />
+            <Text color={c}>Pre-sale Price [BLANK] Eth</Text> <Div />
             <Text color={c}>{' '}Public Sale TBD</Text> <Div />
-            <Text color={c}>Pre-sale Mint April 20th 1620 BST</Text> <Div />
+            <Text color={c}>Pre-sale Mint [BLANK]</Text> <Div />
             <Text color={c}>Public Mint TBD</Text> <Div />
-            <Text color={c}>8888 + 12 Legendary</Text> <Div />
-            <Text color={c}>180 Traits</Text> <Div />
-            <Text color={c}>Pre-sale Price 0.06942 Eth</Text> <Div />
+            <Text color={c}>[BLANK]</Text> <Div />
+            <Text color={c}>[BLANK] Traits</Text> <Div />
+            <Text color={c}>Pre-sale Price [BLANK] Eth</Text> <Div />
             <Text color={c}>{' '}Public Sale TBD</Text> <Div />
-            <Text color={c}>Pre-sale Mint April 20th 1620 BST</Text> <Div />
+            <Text color={c}>Pre-sale Mint [BLANK]</Text> <Div />
             <Text color={c}>Public Mint TBD</Text> <Div />
-            <Text color={c}>8888 + 12 Legendary</Text> <Div />
-            <Text color={c}>180 Traits</Text> <Div />
-            <Text color={c}>Pre-sale Price 0.06942 Eth</Text> <Div />
+            <Text color={c}>[BLANK]</Text> <Div />
+            <Text color={c}>[BLANK] Traits</Text> <Div />
+            <Text color={c}>Pre-sale Price [BLANK] Eth</Text> <Div />
         </HStack>
     )
 }

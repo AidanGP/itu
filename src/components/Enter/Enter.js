@@ -3,11 +3,11 @@ import React from 'react'
 import AnimatedButton from '../AnimatedButton/AnimatedButton'
 import NavIcons from '../NavIcons/NavIcons'
 
-import Logo from '../../images/yellowlogo.png'
+import Logo from '../../images/yellowlogo.webp'
 import go from '../../images/go.png'
-import title from '../../images/title.png'
+import title from '../../images/title.webp'
 
-import bg from '../../images/bg_test.png'
+import bg from '../../images/bg_test.webp'
 
 function Enter({ enter }) {
     return (

@@ -4,8 +4,12 @@ import {
   Image
 } from '@chakra-ui/react';
 
-import bg from './images/bg_test_6.png'
-import logo from './images/title_logo.png'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
+
+
+import bg from './images/bg_test_6.webp'
+import logo from './images/title2.png'
 
 import Nav from './components/Nav'
 import About from './components/About/About';
@@ -59,11 +63,13 @@ function App() {
                 <Box bg='#00233d' bgImage={overlay}>
                   <Box h='100vh' bgImage={bg} bgPosition='center' position='relative'>
                     <Nav />
-                    <Box align='center' pt={{ base: 16, lg: 32 }}>
-                      <Image src={logo} w={720} />
+                    <Box align='center' pt={{ base: 24, lg: 32 }}>
+                      <AnimationOnScroll animateIn="animate__jackInTheBox" animateOnce>
+                        <Image src={logo} w={840} draggable={false} />
+                      </AnimationOnScroll>
                     </Box>
-                    <Image src={left} w={{ base: 52, md: '30%' }} position='absolute' bottom={0} left={{ base: 10, md: 16 }} display={{ base: 'none', sm: 'block' }} />
-                    <Image src={right} w={{ base: 52, md: '30%' }} position='absolute' bottom={0} right={{ base: 10, md: 16 }} display={{ base: 'none', sm: 'block' }} />
+                    <Image src={left} w={{ base: 52, md: '30%' }} position='absolute' bottom={0} left={{ base: 10, md: 16 }} display={{ base: 'none', sm: 'block' }} draggable={false} />
+                    <Image src={right} w={{ base: 52, md: '30%' }} position='absolute' bottom={0} right={{ base: 10, md: 16 }} display={{ base: 'none', sm: 'block' }} draggable={false} />
                   </Box>
                   <InfoCarousel />
 
@@ -74,6 +80,7 @@ function App() {
                 <Roadmap />
                 <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
                 <Box bg='#00233d' bgImage={overlay}>
+
                   <Team />
                 </Box>
                 <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />

@@ -14,7 +14,7 @@ const NavLink = ({ name }) => {
 
 function NavLinks() {
     return (
-        <Stack direction={{ base: 'column', md: 'row' }} align={'center'} className="list" spacing={6} >
+        <Stack direction={{ base: 'column', xl: 'row' }} align={'center'} className="list" spacing={6} >
             <NavLink name='ABOUT' />
             <NavLink name='ROADMAP' />
             <NavLink name='TEAM' />

@@ -3,7 +3,7 @@ import { Box, Stack, Text, Image } from '@chakra-ui/react'
 
 import NavIcons from '../NavIcons/NavIcons'
 
-import Logo from '../../images/yellowlogo.png'
+import Logo from '../../images/yellowlogo.webp'
 
 function Footer() {
     return (
