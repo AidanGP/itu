@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/itu/static/css/main.ceab35cd.css",
-    "main.js": "/itu/static/js/main.d764b67c.js",
+    "main.js": "/itu/static/js/main.53b490bb.js",
+    "static/media/bg_test.png": "/itu/static/media/bg_test.f92635984f3f42dd3073.png",
+    "static/media/bg_test_6.png": "/itu/static/media/bg_test_6.e9dafce6c153ea4dab10.png",
     "static/media/team_1.png": "/itu/static/media/team_1.aa8f769677ef591846c1.png",
     "static/media/scrolling_bg.png": "/itu/static/media/scrolling_bg.dbda90dc57a35872428b.png",
     "static/media/left.png": "/itu/static/media/left.d75607c7f2d3f6f7c479.png",
@@ -14,7 +16,6 @@
     "static/media/team_2.png": "/itu/static/media/team_2.64e30fce948e64ad03d5.png",
     "static/media/roadmap6.png": "/itu/static/media/roadmap6.cb9f42e2ea19959418dd.png",
     "static/media/roadmap7.png": "/itu/static/media/roadmap7.752afe9a0809db796ec3.png",
-    "static/media/bg_test_6.webp": "/itu/static/media/bg_test_6.2239b9bfb1430e097509.webp",
     "static/media/b.png": "/itu/static/media/b.5472e571058e5d5201bd.png",
     "static/media/a.png": "/itu/static/media/a.0eb5c7dcf228c838ebf6.png",
     "static/media/d.png": "/itu/static/media/d.232c206fb6c9db112274.png",
@@ -22,18 +23,18 @@
     "static/media/c.png": "/itu/static/media/c.4fb64276b41d8fcb60ee.png",
     "static/media/e.png": "/itu/static/media/e.be3d11ded9aceca53b4e.png",
     "static/media/roadmap5.png": "/itu/static/media/roadmap5.148a082ddcdd569df10f.png",
-    "static/media/bg_test.webp": "/itu/static/media/bg_test.8ada67861cf30cc51d3b.webp",
     "static/media/overlay2.png": "/itu/static/media/overlay2.76511d487c185a57a5de.png",
     "static/media/overlay.png": "/itu/static/media/overlay.8193eaa129ec51e405c6.png",
     "static/media/title2.png": "/itu/static/media/title2.88be7d7eb28637a23211.png",
+    "static/media/yellowlogo.png": "/itu/static/media/yellowlogo.2d05e6014aaff75db458.png",
     "static/media/yellowlogo.webp": "/itu/static/media/yellowlogo.daa0f3e51b248d77bec7.webp",
-    "static/media/title.webp": "/itu/static/media/title.1bca371c62247b5d92a4.webp",
+    "static/media/title.png": "/itu/static/media/title.3293aa34b8e9b56a2ab2.png",
     "index.html": "/itu/index.html",
     "main.ceab35cd.css.map": "/itu/static/css/main.ceab35cd.css.map",
-    "main.d764b67c.js.map": "/itu/static/js/main.d764b67c.js.map"
+    "main.53b490bb.js.map": "/itu/static/js/main.53b490bb.js.map"
   },
   "entrypoints": [
     "static/css/main.ceab35cd.css",
-    "static/js/main.d764b67c.js"
+    "static/js/main.53b490bb.js"
   ]
 }
