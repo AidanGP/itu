@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/itu/static/css/main.ceab35cd.css",
-    "main.js": "/itu/static/js/main.fe8c7538.js",
+    "main.js": "/itu/static/js/main.d764b67c.js",
     "static/media/team_1.png": "/itu/static/media/team_1.aa8f769677ef591846c1.png",
     "static/media/scrolling_bg.png": "/itu/static/media/scrolling_bg.dbda90dc57a35872428b.png",
     "static/media/left.png": "/itu/static/media/left.d75607c7f2d3f6f7c479.png",
@@ -30,10 +30,10 @@
     "static/media/title.webp": "/itu/static/media/title.1bca371c62247b5d92a4.webp",
     "index.html": "/itu/index.html",
     "main.ceab35cd.css.map": "/itu/static/css/main.ceab35cd.css.map",
-    "main.fe8c7538.js.map": "/itu/static/js/main.fe8c7538.js.map"
+    "main.d764b67c.js.map": "/itu/static/js/main.d764b67c.js.map"
   },
   "entrypoints": [
     "static/css/main.ceab35cd.css",
-    "static/js/main.fe8c7538.js"
+    "static/js/main.d764b67c.js"
   ]
 }
