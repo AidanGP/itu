@@ -11,7 +11,7 @@ import { HamburgerIcon, SmallCloseIcon } from '@chakra-ui/icons';
 import NavIcons from './NavIcons/NavIcons'
 import NavLinks from './NavLinks/NavLinks'
 
-import Logo from '../images/yellowlogo.webp'
+import Logo from '../images/yellowlogo.png'
 
 export default function Nav() {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -37,7 +37,7 @@ export default function Nav() {
                     <Box display={{ base: 'none', xl: 'flex' }}>
                         <NavLinks />
                     </Box>
-                    <Image src={Logo} w={32} display={{ base: 'none', xl: 'block' }} draggable={false} mr={64} />
+                    <Image src={Logo} w={32} display={{ base: 'none', xl: 'block' }} draggable={false} mr={48} />
                     <NavIcons fontSize={20} />
                 </Flex>
 

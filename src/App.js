@@ -8,7 +8,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
 
 
-import bg from './images/bg_test_6.webp'
+import bg from './images/bg_test_6.png'
 import logo from './images/title2.png'
 
 import Nav from './components/Nav'
@@ -63,7 +63,7 @@ function App() {
                 <Box bg='#00233d' bgImage={overlay}>
                   <Box h='100vh' bgImage={bg} bgPosition='center' position='relative'>
                     <Nav />
-                    <Box align='center' pt={{ base: 24, lg: 32 }}>
+                    <Box align='center' pt={{ base: 24, lg: '10vh' }}>
                       <AnimationOnScroll animateIn="animate__jackInTheBox" animateOnce>
                         <Image src={logo} w={840} draggable={false} />
                       </AnimationOnScroll>

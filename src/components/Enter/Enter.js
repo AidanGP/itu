@@ -3,16 +3,16 @@ import React from 'react'
 import AnimatedButton from '../AnimatedButton/AnimatedButton'
 import NavIcons from '../NavIcons/NavIcons'
 
-import Logo from '../../images/yellowlogo.webp'
+import Logo from '../../images/yellowlogo.png'
 import go from '../../images/go.png'
-import title from '../../images/title.webp'
+import title from '../../images/title.png'
 
-import bg from '../../images/bg_test.webp'
+import bg from '../../images/bg_test.png'
 
 function Enter({ enter }) {
     return (
         <Box color='white'>
-            <VStack bgImage={bg} bgPosition='center'>
+            <VStack bgImage={bg} bgPosition='center' h='100vh'>
                 <Image pb={164} pt={4} src={Logo} w={32} />
                 <Image src={go} />
                 <Image src={title} />
@@ -22,15 +22,15 @@ function Enter({ enter }) {
                 </Text>
             </VStack>
             <Box bgGradient='linear(to-b, #00121f, #00223b)'>
-                <Stack spacing={8} p={10} direction={{ base: 'column', md: 'row' }} justifyContent='space-between' align='center'>
-                    <Text pl={2} display={{ base: 'none', md: 'block' }}>© 2022 ITU. All Rights Reserved</Text>
-                    <Image src={Logo} w={32} />
+                <Stack spacing={8} p={10} direction={{ base: 'column', lg: 'row' }} justifyContent='space-between' align='center'>
+                    <Text pl={2} display={{ base: 'none', lg: 'block' }}>© 2022 ITU. All Rights Reserved</Text>
+                    <Image src={Logo} w={32} pl={{ base: 0, lg: 12 }} />
 
                     <NavIcons fontSize={24} mx={4} />
-                    <Text pl={2} align='center' display={{ base: 'block', md: 'none' }}>© 2022 ITU. All Rights Reserved</Text>
+                    <Text pl={2} align='center' display={{ base: 'block', lg: 'none' }}>© 2022 ITU. All Rights Reserved</Text>
                 </Stack>
             </Box>
-        </Box >
+        </Box>
     )
 }
 
