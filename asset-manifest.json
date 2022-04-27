@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/itu/static/css/main.4e7e32f6.css",
-    "main.js": "/itu/static/js/main.c0ee57d0.js",
-    "static/media/bg_test.png": "/itu/static/media/bg_test.f92635984f3f42dd3073.png",
-    "static/media/bg_test_6.png": "/itu/static/media/bg_test_6.e9dafce6c153ea4dab10.png",
+    "main.js": "/itu/static/js/main.0e0efdc8.js",
+    "static/media/bg_test-min.png": "/itu/static/media/bg_test-min.4425b1a2c1020bad0e4b.png",
+    "static/media/bg_test_6-min.png": "/itu/static/media/bg_test_6-min.c987d53b9c23646ded53.png",
     "static/media/left.png": "/itu/static/media/left.8539b610f42b573ea39c.png",
     "static/media/right.png": "/itu/static/media/right.854058755f94ac856bb5.png",
     "static/media/team_3.png": "/itu/static/media/team_3.a9c7b184b670ecd2c6c7.png",
@@ -22,10 +22,10 @@
     "static/media/yellowlogo.png": "/itu/static/media/yellowlogo.8ffc605a97c5ff4511fa.png",
     "index.html": "/itu/index.html",
     "main.4e7e32f6.css.map": "/itu/static/css/main.4e7e32f6.css.map",
-    "main.c0ee57d0.js.map": "/itu/static/js/main.c0ee57d0.js.map"
+    "main.0e0efdc8.js.map": "/itu/static/js/main.0e0efdc8.js.map"
   },
   "entrypoints": [
     "static/css/main.4e7e32f6.css",
-    "static/js/main.c0ee57d0.js"
+    "static/js/main.0e0efdc8.js"
   ]
 }
