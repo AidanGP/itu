@@ -44,7 +44,7 @@ export default function Nav() {
 
                 <Collapse in={isOpen} animateOpacity>
                     {/* borderWidth={2} borderColor={'gray.700'} borderRadius={12} backdropFilter='auto' backdropBlur='3px' */}
-                    <Box pt={12} mt={4} display={{ xl: 'none' }}>
+                    <Box display={{ xl: 'none' }}>
                         <NavLinks />
                     </Box>
                 </Collapse>

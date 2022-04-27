@@ -63,7 +63,7 @@ function App() {
                 <Box bg='#00233d' bgImage={overlay}>
                   <Box h='100vh' bgImage={bg} bgPosition='center' position='relative'>
                     <Nav />
-                    <Box align='center' pt={{ base: 24, lg: '10vh' }}>
+                    <Box align='center' pt={{ base: 32, sm: 16, md: 0, lg: 0, xl: 24, '2xl': 36 }}>
                       <AnimationOnScroll animateIn="animate__jackInTheBox" animateOnce>
                         <Image src={logo} w={840} draggable={false} />
                       </AnimationOnScroll>
