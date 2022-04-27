@@ -5,9 +5,9 @@ import {
 } from '@chakra-ui/react';
 
 import "animate.css/animate.min.css";
-import './components/h.css'
+import './styles.css'
 
-import bg from './images/bg_test_6.png'
+import bg from './images/bg_test_6-min.png'
 import logo from './images/title2.png'
 
 import Nav from './components/Nav'
@@ -68,24 +68,25 @@ function App() {
                   <Image src={left} w={{ base: 52, md: '30%' }} position='absolute' bottom={0} left={{ base: 10, md: 16 }} display={{ base: 'none', sm: 'block' }} draggable={false} loading='lazy' />
                   <Image src={right} w={{ base: 52, md: '30%' }} position='absolute' bottom={0} right={{ base: 10, md: 16 }} display={{ base: 'none', sm: 'block' }} draggable={false} loading='lazy' />
                 </Box>
-                <InfoCarousel />
-                <Box bg='#00233d' bgImage={overlay}>
-                  <About />
-                </Box>
-                <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
-                <Roadmap />
-                <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
-                <Box bg='#00233d' bgImage={overlay}>
-
-                  <Team />
-                </Box>
-                <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
-                <FAQ />
-                <Footer />
-
-
-
               </motion.div>
+              <InfoCarousel />
+              <Box bg='#00233d' bgImage={overlay}>
+                <About />
+              </Box>
+              <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
+              <Roadmap />
+              <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
+              <Box bg='#00233d' bgImage={overlay}>
+
+                <Team />
+              </Box>
+              <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
+              <FAQ />
+              <Footer />
+
+
+
+
             </Box>
           </> :
           <Box bg={'#00121f'}>

@@ -1,1 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap'); */
+.g {
+    color: #fcec37;
+    text-shadow: 0 0 40px rgb(252, 236, 55, 0.5);
+}
