@@ -6,7 +6,7 @@ import { AiFillShop } from "react-icons/ai";
 import { ImMap2 } from "react-icons/im";
 import { RiVipDiamondLine } from "react-icons/ri";
 
-import overlay2 from '../../images/overlay2.png'
+import overlay2 from '../../images/overlay2.webp'
 
 
 

@@ -3,14 +3,14 @@ import { Box, Heading, SimpleGrid, HStack, Text, Spacer, IconButton, Image } fro
 import { FaTwitter } from "react-icons/fa";
 
 
-import a from '../../images/a.png'
+import a from '../../images/a.webp'
 
-import b from '../../images/b.png'
+import b from '../../images/b.webp'
 
-import c from '../../images/c.png'
+import c from '../../images/c.webp'
 
-import d from '../../images/d.png'
-import e from '../../images/e.png'
+import d from '../../images/d.webp'
+import e from '../../images/e.webp'
 
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';

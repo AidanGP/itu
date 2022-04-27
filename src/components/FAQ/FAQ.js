@@ -11,7 +11,7 @@ import {
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-import overlay2 from '../../images/overlay2.png'
+import overlay2 from '../../images/overlay2.webp'
 
 
 const FAQItem = ({ q, a }) => {

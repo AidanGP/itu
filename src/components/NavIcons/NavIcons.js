@@ -1,6 +1,5 @@
 import React from 'react'
-import { Stack } from '@chakra-ui/react';
-import { IconButton } from '@chakra-ui/react'
+import { Stack, IconButton } from '@chakra-ui/react';
 import { FaDiscord, FaTwitter } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai'
 import { GiSailboat } from 'react-icons/gi'
