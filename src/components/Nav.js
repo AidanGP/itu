@@ -37,7 +37,7 @@ export default function Nav() {
                     <Box display={{ base: 'none', xl: 'flex' }}>
                         <NavLinks />
                     </Box>
-                    <Image src={Logo} w={32} display={{ base: 'none', xl: 'block' }} draggable={false} mr={48} />
+                    <Image src={Logo} w={32} display={{ base: 'none', xl: 'block' }} draggable={false} mr={48} loading='lazy' />
                     <NavIcons fontSize={20} />
                 </Flex>
 

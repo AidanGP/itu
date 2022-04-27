@@ -1,12 +1,10 @@
 import React from 'react'
 import { Box, Heading, Image, Text, SimpleGrid } from '@chakra-ui/react'
 
-import a from '../../images/team_1.png'
-import b from '../../images/team_2.png'
+import a from '../../images/team_5.png'
+import b from '../../images/team_6.png'
 import c from '../../images/team_3.png'
 import d from '../../images/team_4.png'
-
-import '../h.css'
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 

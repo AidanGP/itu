@@ -11,7 +11,6 @@ import {
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-import '../h.css'
 import overlay2 from '../../images/overlay2.png'
 
 

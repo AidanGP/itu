@@ -1,21 +1,13 @@
 import React from 'react'
-import { Box, Heading, Grid, GridItem, Center, Icon, VStack, HStack, Image } from '@chakra-ui/react'
+import { Box, Heading, Grid, GridItem, Center, Icon, VStack, HStack } from '@chakra-ui/react'
 import { BiLandscape } from "react-icons/bi";
 import { FaHandsHelping, FaHamburger, FaTshirt } from "react-icons/fa";
 import { AiFillShop } from "react-icons/ai";
 import { ImMap2 } from "react-icons/im";
 import { RiVipDiamondLine } from "react-icons/ri";
 
-import '../h.css'
 import overlay2 from '../../images/overlay2.png'
 
-import roadmap1 from '../../images/roadmap1.png'
-import roadmap2 from '../../images/roadmap2.png'
-import roadmap3 from '../../images/roadmap3.png'
-import roadmap4 from '../../images/roadmap4.png'
-import roadmap5 from '../../images/roadmap5.png'
-import roadmap6 from '../../images/roadmap6.png'
-import roadmap7 from '../../images/roadmap7.png'
 
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
@@ -23,7 +15,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Joiner = ({ side }) => {
     return (
         <Center>
-            <AnimationOnScroll animateIn={`animate__bounceIn${side}`} style={{ width: '100%' }} offset={0} delay={250} animateOnce>
+            <AnimationOnScroll animateIn={`animate__bounceIn${side}`} style={{ width: '100%' }} offset={0} delay={200} animateOnce>
                 <Box borderColor='#3cf7f7' borderWidth={2} w='100%'>
                 </Box>
             </AnimationOnScroll>
@@ -71,7 +63,6 @@ const RoadmapItem = ({ phase, content, src, side, ...rest }) => {
                                 }
                             </Box>
                         </VStack>
-                        {/* <Image display={{ base: 'block', md: 'none', lg: 'none', xl: 'block' }} src={src} w={32} /> */}
                     </HStack>
 
                 </Box>
@@ -99,37 +90,37 @@ function Roadmap() {
 
                     {/* 1 */}
                     <GridItem rowStart={1} rowSpan={{ base: 1, md: 3 }} colStart={1} colSpan={item_w}>
-                        <RoadmapItem side='Left' phase='Merchandise' content={['Free ITU hoodie for holders.']} src={roadmap1} />
+                        <RoadmapItem side='Left' phase='Merchandise' content={['Free ITU hoodie for holders.']} />
                     </GridItem>
 
                     {/* 2 */}
                     <GridItem rowStart={{ base: 2, md: 3 }} rowSpan={{ base: 1, md: 3 }} colStart={{ base: 1, md: item_start }} colSpan={item_w}>
-                        <RoadmapItem side='Right' phase='Charity Drive/Donation' content={['We will list a few charity organization and holders will choose one to whom they wish to donate.']} src={roadmap2} />
+                        <RoadmapItem side='Right' phase='Charity Drive/Donation' content={['We will list a few charity organization and holders will choose one to whom they wish to donate.']} />
                     </GridItem>
 
                     {/* 3 */}
                     <GridItem rowStart={{ base: 3, md: 5 }} rowSpan={{ base: 1, md: 3 }} colStart={1} colSpan={item_w}>
-                        <RoadmapItem side='Left' phase='Real Life Event for ITU holders' content={['ITU food fiesta & fun fair(location to be confirmed)', 'ITU Holders gathering, meet & dine.']} src={roadmap3} />
+                        <RoadmapItem side='Left' phase='Real Life Event for ITU holders' content={['ITU food fiesta & fun fair(location to be confirmed)', 'ITU Holders gathering, meet & dine.']} />
                     </GridItem>
 
                     {/* 4 */}
                     <GridItem rowStart={{ base: 4, md: 7 }} rowSpan={{ base: 1, md: 3 }} colStart={{ base: 1, md: item_start }} colSpan={item_w}>
-                        <RoadmapItem side='Right' phase='Acquire a MetaVerse land' content={['As the buzz around the metaverse picks up pace, the virtual land opportunity takes centre stage, we wouldn’t want to miss out the opportunity and we will purchase a top tier metaverse land for ITU for future adoption.']} src={roadmap4} />
+                        <RoadmapItem side='Right' phase='Acquire a MetaVerse land' content={['As the buzz around the metaverse picks up pace, the virtual land opportunity takes centre stage, we wouldn’t want to miss out the opportunity and we will purchase a top tier metaverse land for ITU for future adoption.']} />
                     </GridItem>
 
                     {/* 5 */}
                     <GridItem rowStart={{ base: 5, md: 9 }} rowSpan={{ base: 1, md: 3 }} colStart={1} colSpan={item_w}>
-                        <RoadmapItem side='Left' phase='ITU Food Chain or Merchandise retail shop.' content={['ITU Food concept restaurant headed by our founder celebrity chef bob.', 'ITU merchandise collabs with known brands.', 'Part of sales proceed will go back to the community wallet.']} src={roadmap5} />
+                        <RoadmapItem side='Left' phase='ITU Food Chain or Merchandise retail shop.' content={['ITU Food concept restaurant headed by our founder celebrity chef bob.', 'ITU merchandise collabs with known brands.', 'Part of sales proceed will go back to the community wallet.']} />
                     </GridItem>
 
                     {/* 6 */}
                     <GridItem rowStart={{ base: 6, md: 11 }} rowSpan={{ base: 1, md: 3 }} colStart={{ base: 1, md: item_start }} colSpan={item_w}>
-                        <RoadmapItem side='Right' phase='2nd NFT Drop' content={['Companion drop for NFT holders']} src={roadmap6} />
+                        <RoadmapItem side='Right' phase='2nd NFT Drop' content={['Companion drop for NFT holders']} />
                     </GridItem>
 
                     {/* 7 */}
                     <GridItem rowStart={{ base: 7, md: 13 }} rowSpan={{ base: 1, md: 3 }} colStart={1} colSpan={item_w}>
-                        <RoadmapItem side='Left' phase='Roadmap 2.0' content={['Improvisation of roadmap 1.0, dao governance, tokenisation and nft/token staking are one of the few that we are working hard to make it a realisation.']} src={roadmap7} />
+                        <RoadmapItem side='Left' phase='Roadmap 2.0' content={['Improvisation of roadmap 1.0, dao governance, tokenisation and nft/token staking are one of the few that we are working hard to make it a realisation.']} />
                     </GridItem>
 
 

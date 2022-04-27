@@ -12,13 +12,12 @@ import c from '../../images/c.png'
 import d from '../../images/d.png'
 import e from '../../images/e.png'
 
-import '../h.css'
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const TeamMember = ({ name, role, src, to, delay, side }) => {
     return (
-        <AnimationOnScroll animateIn={`animate__zoomIn${side}`} offset={0} delay={delay} animateOnce>
+        <AnimationOnScroll animateIn={`animate__zoomIn${side}`} delay={delay} animateOnce>
             <Box
                 bg={'#004863'}
                 rounded="12px"
@@ -52,7 +51,7 @@ const TeamMember = ({ name, role, src, to, delay, side }) => {
                         </Text>
                     </Box>
                     <Spacer />
-                    <Image w='120px' pr={2} src={src} draggable={false} />
+                    <Image w='120px' pr={2} src={src} draggable={false} loading='lazy' />
                 </HStack>
             </Box>
         </AnimationOnScroll>
@@ -71,10 +70,10 @@ function Team() {
             <Box mx={[4, 4, 10, 24, 72]}>
                 <SimpleGrid columns={{ base: '1', md: '2' }} spacingY={4} spacingX={4} >
                     <TeamMember name="Chef Bob" role="Influencer/Marketing" to={'https://twitter.com/chefbobsg'} src={a} delay={0} side={'Left'} />
-                    <TeamMember name="Aiman" role="Artist/Adviser" src={b} delay={100} side={'Right'} />
-                    <TeamMember name="wibXD" role="Graphic Designer" to={'https://twitter.com/wibletXD'} src={c} delay={200} side={'Left'} />
-                    <TeamMember name="Abutuqo" role="Team ITU Advisor" to={'https://twitter.com/abutuqo80'} src={e} delay={300} side={'Right'} />
-                    <TeamMember name="Diysein" role="Teach and Operation" to={'https://twitter.com/DiyseinITU'} src={d} delay={400} side={'Left'} />
+                    <TeamMember name="Aiman" role="Artist/Adviser" src={b} delay={50} side={'Right'} />
+                    <TeamMember name="wibXD" role="Graphic Designer" to={'https://twitter.com/wibletXD'} src={c} delay={100} side={'Left'} />
+                    <TeamMember name="Abutuqo" role="Team ITU Advisor" to={'https://twitter.com/abutuqo80'} src={e} delay={150} side={'Right'} />
+                    <TeamMember name="Diysein" role="Teach and Operation" to={'https://twitter.com/DiyseinITU'} src={d} delay={200} side={'Left'} />
                 </SimpleGrid>
             </Box>
 
