@@ -12,11 +12,15 @@ import c from '../../images/c.webp'
 import d from '../../images/d.webp'
 import e from '../../images/e.webp'
 
-
+import { motion } from "framer-motion";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const TeamMember = ({ name, role, src, to, delay, side }) => {
     return (
+      <motion.div
+        whileHover={ {y: -5} }
+        transition={{ type: "spring", duration: 0.8 }}
+      >
         <AnimationOnScroll animateIn={`animate__zoomIn${side}`} delay={delay} animateOnce>
             <Box
                 bg={'#004863'}
@@ -55,6 +59,7 @@ const TeamMember = ({ name, role, src, to, delay, side }) => {
                 </HStack>
             </Box>
         </AnimationOnScroll>
+      </motion.div>
     )
 }
 

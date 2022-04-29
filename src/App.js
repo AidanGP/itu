@@ -71,11 +71,11 @@ function App() {
 
                 <Box h='100vh' bgImage={bg} bgPosition='center' position='relative'>
                   <Nav />
-                  <Box align='center' pt={{ base: 32, sm: 16, md: 0, lg: 0, xl: 24, '2xl': 36 }}>
-                    <Image src={logo} w={840} draggable={false} loading='eager' />
-                  </Box>
                   <Image src={left} w={{ base: 52, md: '30%' }} position='absolute' bottom={0} left={{ base: 10, md: 16 }} display={{ base: 'none', sm: 'block' }} draggable={false} />
                   <Image src={right} w={{ base: 52, md: '30%' }} position='absolute' bottom={0} right={{ base: 10, md: 16 }} display={{ base: 'none', sm: 'block' }} draggable={false} />
+                  <Box align='center' pt={{ base: 32, sm: 16, md: 0, lg: 0, xl: 24, '2xl': 36 }}>
+                    <Image src={logo} w={'100vh'} draggable={false} loading='eager' />
+                  </Box>
                 </Box>
               </motion.div>
 

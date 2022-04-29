@@ -25,9 +25,11 @@ function Enter({ enter }) {
 
 
                 <AnimatedButton enter={enter} />
-                <Text maxW={840} py={{ base: 12, md: 32 }} align='center'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non justo non nisi imperdiet tincidunt vel at dolor. Sed auctor tempor consectetur. Maecenas lobortis nunc ut fringilla feugiat. Donec vel neque eros.
+                <Text maxW={840} py={{ base: 200, md: 32 }} fontSize={'xl'} align='center'>
+                  An alien themed NFT collection where your token doubles as your membership into the Unknown.
+                  Join us and become one with the Unknown...
                 </Text>
+
             </VStack>
             <Footer />
         </Box>

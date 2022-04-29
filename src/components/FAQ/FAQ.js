@@ -12,10 +12,14 @@ import {
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 import overlay2 from '../../images/overlay2.webp'
-
+import { motion } from "framer-motion";
 
 const FAQItem = ({ q, a }) => {
     return (
+      <motion.div
+        whileHover={ {y: -5} }
+        transition={{ type: "spring", duration: 0.8 }}
+      >
         <AccordionItem border={0} bgColor='#004863' borderRadius={16} my={8} boxShadow='xl'>
             <h2>
                 <AccordionButton _focus={{ outline: 0 }} _hover={{}}>
@@ -29,6 +33,7 @@ const FAQItem = ({ q, a }) => {
                 {a}
             </AccordionPanel>
         </AccordionItem>
+      </motion.div>
     )
 }
 
