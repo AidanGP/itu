@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/itu/static/css/main.cfd63671.css",
-    "main.js": "/itu/static/js/main.a3bc33f9.js",
-    "static/js/262.64d93854.chunk.js": "/itu/static/js/262.64d93854.chunk.js",
-    "static/js/657.e8f42bc1.chunk.js": "/itu/static/js/657.e8f42bc1.chunk.js",
-    "static/js/678.4eeeb5d5.chunk.js": "/itu/static/js/678.4eeeb5d5.chunk.js",
-    "static/js/820.f3b23486.chunk.js": "/itu/static/js/820.f3b23486.chunk.js",
+    "main.js": "/itu/static/js/main.eb520078.js",
+    "static/js/75.a5d54725.chunk.js": "/itu/static/js/75.a5d54725.chunk.js",
+    "static/js/657.67759edc.chunk.js": "/itu/static/js/657.67759edc.chunk.js",
+    "static/js/678.474f9ce1.chunk.js": "/itu/static/js/678.474f9ce1.chunk.js",
+    "static/js/820.f67c1f87.chunk.js": "/itu/static/js/820.f67c1f87.chunk.js",
     "static/css/160.b9edad8c.chunk.css": "/itu/static/css/160.b9edad8c.chunk.css",
     "static/js/160.c4ac6ff2.chunk.js": "/itu/static/js/160.c4ac6ff2.chunk.js",
-    "static/js/554.599a5286.chunk.js": "/itu/static/js/554.599a5286.chunk.js",
+    "static/js/430.7061bd49.chunk.js": "/itu/static/js/430.7061bd49.chunk.js",
+    "static/js/554.3edfcad4.chunk.js": "/itu/static/js/554.3edfcad4.chunk.js",
     "static/media/team_3.webp": "/itu/static/media/team_3.1ec6440203d28ebe43f9.webp",
     "static/media/team_5.webp": "/itu/static/media/team_5.f7d5003fd938440d4e59.webp",
     "static/media/overlay.webp": "/itu/static/media/overlay.36455e2fbdf5c8eb4fe3.webp",
@@ -31,17 +32,18 @@
     "static/media/go.webp": "/itu/static/media/go.4d8df43138b3b7e59285.webp",
     "index.html": "/itu/index.html",
     "main.cfd63671.css.map": "/itu/static/css/main.cfd63671.css.map",
-    "main.a3bc33f9.js.map": "/itu/static/js/main.a3bc33f9.js.map",
-    "262.64d93854.chunk.js.map": "/itu/static/js/262.64d93854.chunk.js.map",
-    "657.e8f42bc1.chunk.js.map": "/itu/static/js/657.e8f42bc1.chunk.js.map",
-    "678.4eeeb5d5.chunk.js.map": "/itu/static/js/678.4eeeb5d5.chunk.js.map",
-    "820.f3b23486.chunk.js.map": "/itu/static/js/820.f3b23486.chunk.js.map",
+    "main.eb520078.js.map": "/itu/static/js/main.eb520078.js.map",
+    "75.a5d54725.chunk.js.map": "/itu/static/js/75.a5d54725.chunk.js.map",
+    "657.67759edc.chunk.js.map": "/itu/static/js/657.67759edc.chunk.js.map",
+    "678.474f9ce1.chunk.js.map": "/itu/static/js/678.474f9ce1.chunk.js.map",
+    "820.f67c1f87.chunk.js.map": "/itu/static/js/820.f67c1f87.chunk.js.map",
     "160.b9edad8c.chunk.css.map": "/itu/static/css/160.b9edad8c.chunk.css.map",
     "160.c4ac6ff2.chunk.js.map": "/itu/static/js/160.c4ac6ff2.chunk.js.map",
-    "554.599a5286.chunk.js.map": "/itu/static/js/554.599a5286.chunk.js.map"
+    "430.7061bd49.chunk.js.map": "/itu/static/js/430.7061bd49.chunk.js.map",
+    "554.3edfcad4.chunk.js.map": "/itu/static/js/554.3edfcad4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfd63671.css",
-    "static/js/main.a3bc33f9.js"
+    "static/js/main.eb520078.js"
   ]
 }
