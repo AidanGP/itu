@@ -86,6 +86,8 @@ function App() {
                   <About />
                 </Box>
 
+
+
                 <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
 
                 <Roadmap />

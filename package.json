@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^10.4.9",
     "@testing-library/user-event": "^12.8.3",
+    "3d-react-carousal": "^5.0.0",
     "animate.css": "^4.1.1",
     "framer-motion": "^4.1.17",
     "framer-motion-3d": "^6.2.8",

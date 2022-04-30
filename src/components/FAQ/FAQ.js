@@ -50,7 +50,7 @@ function FAQ() {
                 <AnimationOnScroll animateIn="animate__bounceInUp" offset={250} animateOnce>
                     <Accordion allowMultiple maxW={850}>
                         <FAQItem q='What is an NFT' a='An NFT refers to a “Non-fungible Token”, which is a one-of-a-kind asset that lives online on a digital ledger. You can buy, own and trade your NFTs as you do with any other type of physical artwork or collectible item. Since blockchain technology transparently shows the ownership of NFTs, if you own one – everyone can look up your ownership!' />
-                        <FAQItem q='What is Into The Unknown?' a='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non justo non nisi imperdiet tincidunt vel at dolor. Sed auctor tempor consectetur. Maecenas lobortis nunc ut fringilla feugiat. Donec vel neque eros. Nam sit amet elit massa. Vestibulum nunc nisi, commodo rhoncus tincidunt vitae, dictum id nibh.' />
+                        <FAQItem q='What is Into The Unknown?' a='ITU is a collection of unknown creatures wandering about the universe! These "Unknown" creatures are all entering new galaxies with a careful invasion which is planned with many utilities. Join us in the Metaverse as we dive into Tokenomics, Staking, IRL events and much much more....We have a wonderful and visionary team that are doxxed and lead by our famous celebrity chef!' />
                         <FAQItem q='What is the Pre-Sale Mint cost?' a='TBA' />
                         <FAQItem q='What is the Public Mint cost?' a='TBA' />
                         <FAQItem q='When are the Mint Dates?' a='TBA' />
