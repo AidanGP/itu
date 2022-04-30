@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/itu/static/css/main.cfd63671.css",
-    "main.js": "/itu/static/js/main.d24bd7db.js",
-    "static/js/75.500eb617.chunk.js": "/itu/static/js/75.500eb617.chunk.js",
+    "main.js": "/itu/static/js/main.f53adcca.js",
+    "static/js/189.3a395bfe.chunk.js": "/itu/static/js/189.3a395bfe.chunk.js",
     "static/js/657.67759edc.chunk.js": "/itu/static/js/657.67759edc.chunk.js",
     "static/js/678.474f9ce1.chunk.js": "/itu/static/js/678.474f9ce1.chunk.js",
-    "static/js/820.f67c1f87.chunk.js": "/itu/static/js/820.f67c1f87.chunk.js",
+    "static/js/820.2b3ed2c4.chunk.js": "/itu/static/js/820.2b3ed2c4.chunk.js",
     "static/css/160.b9edad8c.chunk.css": "/itu/static/css/160.b9edad8c.chunk.css",
     "static/js/160.c4ac6ff2.chunk.js": "/itu/static/js/160.c4ac6ff2.chunk.js",
-    "static/js/430.5ce1c335.chunk.js": "/itu/static/js/430.5ce1c335.chunk.js",
+    "static/js/186.61df072e.chunk.js": "/itu/static/js/186.61df072e.chunk.js",
     "static/js/554.3edfcad4.chunk.js": "/itu/static/js/554.3edfcad4.chunk.js",
     "static/media/bg_test-min.webp": "/itu/static/media/bg_test-min.a6f0341a3baa9f996965.webp",
     "static/media/team_3.webp": "/itu/static/media/team_3.1ec6440203d28ebe43f9.webp",
@@ -32,18 +32,18 @@
     "static/media/go.webp": "/itu/static/media/go.4d8df43138b3b7e59285.webp",
     "index.html": "/itu/index.html",
     "main.cfd63671.css.map": "/itu/static/css/main.cfd63671.css.map",
-    "main.d24bd7db.js.map": "/itu/static/js/main.d24bd7db.js.map",
-    "75.500eb617.chunk.js.map": "/itu/static/js/75.500eb617.chunk.js.map",
+    "main.f53adcca.js.map": "/itu/static/js/main.f53adcca.js.map",
+    "189.3a395bfe.chunk.js.map": "/itu/static/js/189.3a395bfe.chunk.js.map",
     "657.67759edc.chunk.js.map": "/itu/static/js/657.67759edc.chunk.js.map",
     "678.474f9ce1.chunk.js.map": "/itu/static/js/678.474f9ce1.chunk.js.map",
-    "820.f67c1f87.chunk.js.map": "/itu/static/js/820.f67c1f87.chunk.js.map",
+    "820.2b3ed2c4.chunk.js.map": "/itu/static/js/820.2b3ed2c4.chunk.js.map",
     "160.b9edad8c.chunk.css.map": "/itu/static/css/160.b9edad8c.chunk.css.map",
     "160.c4ac6ff2.chunk.js.map": "/itu/static/js/160.c4ac6ff2.chunk.js.map",
-    "430.5ce1c335.chunk.js.map": "/itu/static/js/430.5ce1c335.chunk.js.map",
+    "186.61df072e.chunk.js.map": "/itu/static/js/186.61df072e.chunk.js.map",
     "554.3edfcad4.chunk.js.map": "/itu/static/js/554.3edfcad4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfd63671.css",
-    "static/js/main.d24bd7db.js"
+    "static/js/main.f53adcca.js"
   ]
 }
