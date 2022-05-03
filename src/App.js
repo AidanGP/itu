@@ -81,9 +81,13 @@ function App() {
 
 
               <Suspense fallback={'Loading...'}>
-                <InfoCarousel />
-                <Box bg='#00233d' bgImage={overlay}>
-                  <About />
+                {/* <InfoCarousel /> */}
+                {/* bg='#00233d' */}
+                <Box bgGradient='linear(to-br, #00233d 0%, #00121f 100%)'>
+                  <Box bgImage={overlay}>
+                    <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
+                    <About />
+                  </Box>
                 </Box>
 
 
@@ -94,8 +98,10 @@ function App() {
 
                 <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
 
-                <Box bg='#00233d' bgImage={overlay}>
-                  <Team />
+                <Box bgGradient='linear(to-br, #00233d 0%, #00121f 100%)'>
+                  <Box bgImage={overlay}>
+                    <Team />
+                  </Box>
                 </Box>
                 <hr color='#3cf7f7' style={{ height: '3px', border: 0 }} />
                 <FAQ />
