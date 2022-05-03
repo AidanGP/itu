@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/itu/static/css/main.cfd63671.css",
-    "main.js": "/itu/static/js/main.f53adcca.js",
+    "main.js": "/itu/static/js/main.81a0699b.js",
     "static/js/189.3a395bfe.chunk.js": "/itu/static/js/189.3a395bfe.chunk.js",
     "static/js/657.67759edc.chunk.js": "/itu/static/js/657.67759edc.chunk.js",
     "static/js/678.474f9ce1.chunk.js": "/itu/static/js/678.474f9ce1.chunk.js",
@@ -32,7 +32,7 @@
     "static/media/go.webp": "/itu/static/media/go.4d8df43138b3b7e59285.webp",
     "index.html": "/itu/index.html",
     "main.cfd63671.css.map": "/itu/static/css/main.cfd63671.css.map",
-    "main.f53adcca.js.map": "/itu/static/js/main.f53adcca.js.map",
+    "main.81a0699b.js.map": "/itu/static/js/main.81a0699b.js.map",
     "189.3a395bfe.chunk.js.map": "/itu/static/js/189.3a395bfe.chunk.js.map",
     "657.67759edc.chunk.js.map": "/itu/static/js/657.67759edc.chunk.js.map",
     "678.474f9ce1.chunk.js.map": "/itu/static/js/678.474f9ce1.chunk.js.map",
@@ -44,6 +44,6 @@
   },
   "entrypoints": [
     "static/css/main.cfd63671.css",
-    "static/js/main.f53adcca.js"
+    "static/js/main.81a0699b.js"
   ]
 }
