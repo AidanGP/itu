@@ -25,9 +25,9 @@ function Enter({ enter }) {
 
 
                 <AnimatedButton enter={enter} />
-                <Text maxW={840} py={{ base: 200, md: 32 }} fontSize={'xl'} align='center'>
-                  An alien themed NFT collection where your token doubles as your membership into the Unknown.
-                  Join us and become one with the Unknown...
+                <Text maxW={840} py={{ base: 200, md: 24 }} fontSize={'xl'} align='center'>
+                    An alien themed NFT collection where your token doubles as your membership into the Unknown.
+                    Join us and become one with the Unknown...
                 </Text>
 
             </VStack>
